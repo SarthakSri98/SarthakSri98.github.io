@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-<link href="/css/override.css" rel="stylesheet" type="text/css">
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
@@ -11,20 +10,35 @@ layout: default
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {{ page.date | date: date_format }}
       </time>
-      {% assign author = page.author | default: site.author %}
-      {%- if author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ author }}</span></span>
+      {%- if page.author -%}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
       {%- endif -%}</p>
   </header>
 
-  <div class="share-links">
-    {% include sharelinks.html %}
-  </div>
-
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
-    {% include navlinks.html %}
   </div>
+
+  <script src="https://utteranc.es/client.js"
+        repo="SarthakSri98/SarthakSri98.github.io"
+        issue-term="pathname"
+        label="blog-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+<script>
+const headings = document.querySelectorAll('h1[id],h2[id],h3[id],h4[id]');
+const linkContent = '#';
+for (const heading of headings) {
+    const linkIcon = document.createElement('a');
+    linkIcon.setAttribute('href', `#${heading.id}`);
+    linkIcon.style.fontSize = '0.8em'
+    linkIcon.style.padding = '0 0.5em';
+    linkIcon.innerHTML = linkContent;
+    heading.appendChild(linkIcon);
+}
+</script>
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
