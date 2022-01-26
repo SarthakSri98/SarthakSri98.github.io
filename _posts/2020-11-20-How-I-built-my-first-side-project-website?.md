@@ -1,5 +1,3 @@
-## How I built my first side project website?
-
 # Why to build a side project?
 
 So this was the time of April 2018, when I began learning Angular. I started with the cliche official docs tutorial ‘tour of heroes’ and got familiar with the basics of angular. However, it was more like a tutorial that gives you the code of everything and you just copy it.
@@ -11,7 +9,7 @@ So, the next thing was to realize that I had to develop a project completely on 
 I began searching for ideas and came up with the idea of building a site that will show videos on search. I decided to use [Dailymotion’s API](https://developer.dailymotion.com/api) for the task.
 
 
-<noscript><img alt="Image for post" class="t u v gt aj" src="https://miro.medium.com/max/2200/0*oTJWPp8BXR4aR-8r" width="1100" height="586" srcSet="https://miro.medium.com/max/552/0*oTJWPp8BXR4aR-8r 276w, https://miro.medium.com/max/1104/0*oTJWPp8BXR4aR-8r 552w, https://miro.medium.com/max/1280/0*oTJWPp8BXR4aR-8r 640w, https://miro.medium.com/max/1400/0*oTJWPp8BXR4aR-8r 700w" sizes="700px"/></noscript>
+<img alt="Image for post" class="t u v gt aj" src="https://miro.medium.com/max/2200/0*oTJWPp8BXR4aR-8r" width="1100" height="586" srcSet="https://miro.medium.com/max/552/0*oTJWPp8BXR4aR-8r 276w, https://miro.medium.com/max/1104/0*oTJWPp8BXR4aR-8r 552w, https://miro.medium.com/max/1280/0*oTJWPp8BXR4aR-8r 640w, https://miro.medium.com/max/1400/0*oTJWPp8BXR4aR-8r 700w" sizes="700px"/>
 
 > This is the final landing page of my project.
 
@@ -29,7 +27,7 @@ The str variable was equal to the value I got by the search bar. I used [reactiv
 
 The result was this:
 
-<noscript><img alt="Image for post" class="t u v gt aj" src="https://miro.medium.com/max/2200/0*KghHlB0Kir6Hkkqq" width="1100" height="586" srcSet="https://miro.medium.com/max/552/0*KghHlB0Kir6Hkkqq 276w, https://miro.medium.com/max/1104/0*KghHlB0Kir6Hkkqq 552w, https://miro.medium.com/max/1280/0*KghHlB0Kir6Hkkqq 640w, https://miro.medium.com/max/1400/0*KghHlB0Kir6Hkkqq 700w" sizes="700px"/></noscript>
+<img alt="Image for post" class="t u v gt aj" src="https://miro.medium.com/max/2200/0*KghHlB0Kir6Hkkqq" width="1100" height="586" srcSet="https://miro.medium.com/max/552/0*KghHlB0Kir6Hkkqq 276w, https://miro.medium.com/max/1104/0*KghHlB0Kir6Hkkqq 552w, https://miro.medium.com/max/1280/0*KghHlB0Kir6Hkkqq 640w, https://miro.medium.com/max/1400/0*KghHlB0Kir6Hkkqq 700w" sizes="700px"/>
 
 The good looking ‘+’ icon and the stream video online button was all with the help of [Angular Material](https://material.angular.io/components/categories).
 
@@ -43,7 +41,7 @@ The embed video API I used was
 
 After all this the button was working :
 
-<noscript><img alt="Image for post" class="t u v gt aj" src="https://miro.medium.com/max/2200/0*G4l2mjSdWWo2IkIb" width="1100" height="585" srcSet="https://miro.medium.com/max/552/0*G4l2mjSdWWo2IkIb 276w, https://miro.medium.com/max/1104/0*G4l2mjSdWWo2IkIb 552w, https://miro.medium.com/max/1280/0*G4l2mjSdWWo2IkIb 640w, https://miro.medium.com/max/1400/0*G4l2mjSdWWo2IkIb 700w" sizes="700px"/></noscript>
+<img alt="Image for post" class="t u v gt aj" src="https://miro.medium.com/max/2200/0*G4l2mjSdWWo2IkIb" width="1100" height="585" srcSet="https://miro.medium.com/max/552/0*G4l2mjSdWWo2IkIb 276w, https://miro.medium.com/max/1104/0*G4l2mjSdWWo2IkIb 552w, https://miro.medium.com/max/1280/0*G4l2mjSdWWo2IkIb 640w, https://miro.medium.com/max/1400/0*G4l2mjSdWWo2IkIb 700w" sizes="700px"/>
 
 
 > 
@@ -53,7 +51,7 @@ At this time my project was about to complete. But I gave myself one more challe
 
 The challenge for me was that I didn’t have any knowledge of backend at that time so I searched about it and got to know about local storage. However, even after that, there were a whole lot of difficulties I overcame to include this functionality. While doing the project I was constantly struggling with the new bugs and errors I found and googling helped me every time.
 
-<noscript><img alt="Image for post" class="t u v gt aj" src="https://miro.medium.com/max/2200/0*k0PhlrM30QoKx0bK" width="1100" height="581" srcSet="https://miro.medium.com/max/552/0*k0PhlrM30QoKx0bK 276w, https://miro.medium.com/max/1104/0*k0PhlrM30QoKx0bK 552w, https://miro.medium.com/max/1280/0*k0PhlrM30QoKx0bK 640w, https://miro.medium.com/max/1400/0*k0PhlrM30QoKx0bK 700w" sizes="700px"/></noscript>
+<img alt="Image for post" class="t u v gt aj" src="https://miro.medium.com/max/2200/0*k0PhlrM30QoKx0bK" width="1100" height="581" srcSet="https://miro.medium.com/max/552/0*k0PhlrM30QoKx0bK 276w, https://miro.medium.com/max/1104/0*k0PhlrM30QoKx0bK 552w, https://miro.medium.com/max/1280/0*k0PhlrM30QoKx0bK 640w, https://miro.medium.com/max/1400/0*k0PhlrM30QoKx0bK 700w" sizes="700px"/>
 
 
 > 
@@ -67,7 +65,7 @@ After doing this project, I felt much more confident in my development skills. S
 1.Routing. I used it in the navigation bar.
 
 > 
-<noscript><img alt="Image for post" class="t u v gt aj" src="https://miro.medium.com/max/1760/0*dYYvbnO_c9Ge6YmY" width="880" height="81" srcSet="https://miro.medium.com/max/552/0*dYYvbnO_c9Ge6YmY 276w, https://miro.medium.com/max/1104/0*dYYvbnO_c9Ge6YmY 552w, https://miro.medium.com/max/1280/0*dYYvbnO_c9Ge6YmY 640w, https://miro.medium.com/max/1400/0*dYYvbnO_c9Ge6YmY 700w" sizes="700px"/></noscript>
+<img alt="Image for post" class="t u v gt aj" src="https://miro.medium.com/max/1760/0*dYYvbnO_c9Ge6YmY" width="880" height="81" srcSet="https://miro.medium.com/max/552/0*dYYvbnO_c9Ge6YmY 276w, https://miro.medium.com/max/1104/0*dYYvbnO_c9Ge6YmY 552w, https://miro.medium.com/max/1280/0*dYYvbnO_c9Ge6YmY 640w, https://miro.medium.com/max/1400/0*dYYvbnO_c9Ge6YmY 700w" sizes="700px"/>
 
 2.For various design features like raised-buttons, input, and the modal itself I used angular-material.
 
